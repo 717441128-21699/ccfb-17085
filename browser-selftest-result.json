@@ -1,0 +1,107 @@
+{
+  "consoleErrors": [],
+  "pageErrors": [],
+  "selftest": {
+    "ranAt": 1795732954937,
+    "checks": [
+      {
+        "name": "风噪中不跳八度",
+        "pass": true,
+        "detail": "中位 0.1 音分, 八度跳 0/225"
+      },
+      {
+        "name": "满拉音误差≤10音分",
+        "pass": true,
+        "detail": "391.2Hz, -3.4 音分"
+      },
+      {
+        "name": "半力度保留滑音起伏",
+        "pass": true,
+        "detail": "滑幅比 0.54"
+      },
+      {
+        "name": "三度和声音准",
+        "pass": true,
+        "detail": "2.5 音分"
+      },
+      {
+        "name": "五度和声音准",
+        "pass": true,
+        "detail": "1.4 音分"
+      },
+      {
+        "name": "内置曲拍点/和弦网格精确",
+        "pass": true,
+        "detail": "庙会欢歌 124BPM [C,G,Am,F]；月下抖嗡 92BPM [Am,F,C,G]；炫技快板 142BPM [D,A,Bm,G]"
+      },
+      {
+        "name": "分析器干净信号和弦识别",
+        "pass": true,
+        "detail": "识别为 C"
+      },
+      {
+        "name": "和弦音跨八度展开",
+        "pass": true,
+        "detail": "16 个音"
+      }
+    ],
+    "passed": 8,
+    "failed": 0,
+    "durationMs": 4576.700000047684
+  },
+  "pitch": {
+    "note": "E5",
+    "cents": "-3 音分",
+    "voiced": "哨声中",
+    "target": "E5",
+    "h3": "G5",
+    "h5": "B5"
+  },
+  "beatTiming": {
+    "bpm": 124,
+    "expectedBpm": 124,
+    "downbeats": 24,
+    "maxGridDeviationMs": 0,
+    "mapErrMs": 7.105427357601002e-12,
+    "devs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "recording": {
+    "takes": 1,
+    "size": 68267,
+    "duration": 2.8213333333333317,
+    "hasAudio": true,
+    "src": "blob:http://127.0.0.1:47831/1feb8fa0-2e0"
+  },
+  "ui": {
+    "trackCount": 3
+  },
+  "beatSchedule": {
+    "count": 6,
+    "maxErrMs": 0,
+    "errs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "verdict": {
+    "selfFail": 0,
+    "pitchOk": true,
+    "beatOk": true,
+    "schedOk": true,
+    "recOk": true,
+    "noPageErrors": true
+  }
+}
